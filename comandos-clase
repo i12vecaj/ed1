@@ -1,0 +1,55 @@
+GRUPO 1
+***********************************************************************
+git --version
+git init
+git status -s
+
+GRUPO 2
+***********************************************************************
+git add .
+git add index.html
+
+GRUPO 3
+***********************************************************************
+git commit -m "Primer commit"
+git commit -am "Commit completo"
+
+GRUPO 4
+***********************************************************************
+git log --oneline
+
+GRUPO 5
+***********************************************************************
+git reset id_commit
+
+GRUPO 6
+***********************************************************************
+Github: push an existing repository
+
+git remote add origin git@github.com:i12vecaj/ed1.git
+git branch -M main
+git push -u origin main
+
+
+git push all
+git pull
+git clone https://
+
+
+TAGS
+***********************************************************************
+git tag 02-02-2022v1
+
+BRANCHS 
+***********************************************************************
+git branch "nombre_rama"
+git branch
+git branch -d "nombre_rama"
+git checkout nombre_rama
+
+MERGE (tenemos que estar en la rama MASTER) -> resolución de conflictos
+git merge javascript
+
+Commits convencionales: https://www.conventionalcommits.org/es/v1.0.0-beta.2/
+
+https://aprendeconalf.es/docencia/git/ejercicios/ramas/
